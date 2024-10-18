@@ -1,0 +1,7 @@
+.ant-table-tbody .ant-table-row:nth-child(even) {
+  background-color: lightgray;
+}
+
+jmnode.selected{
+  color:#000 !important
+}

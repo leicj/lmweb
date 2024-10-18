@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "author": "leichaojian <leichaojian@outlook.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.2",
+    "@ant-design/pro-components": "^2.4.16",
+    "@umijs/max": "^4.0.69",
+    "antd": "^5.5.1",
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.10",
+    "js-cookie": "^3.0.5",
+    "moment": "^2.29.4",
+    "reactflow": "^11.8.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "typescript": "^5.0.4"
+  }
+}
