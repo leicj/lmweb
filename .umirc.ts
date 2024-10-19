@@ -13,54 +13,27 @@ export default defineConfig({
     title: '路面智能决策系统',
   },
   routes: [
-    // {
-    //   path: '/smart',
-    //   name: '养护智能决策',
-    //   routes: [
-    //     {
-    //       path: '/smart/cost',
-    //       name: '养护费用模型',
-    //       component: './smart/cost',
-    //     },
-    //     {
-    //       path: '/smart/guess',
-    //       name: '性能预测模型',
-    //     },
-    //     {
-    //       path: '/smart/sort',
-    //       name: '优先排序模型',
-    //     },
-    //     {
-    //       path: '/smart/category',
-    //       name: '养护决策模型',
-    //       component: './smart/categoryMix',
-    //     },
-    //     {
-    //       path: '/smart/solution',
-    //       name: '养护需求分析',
-    //     }
-    //   ]
-    // }, {
-    //   path: '/pqi',
-    //   name: '路面技术状况评定',
-    //   routes: [
-    //     {
-    //       path: '/',
-    //       name: '项目管理',
-    //       component: './',
-    //     },
-    //     {
-    //       path: '/',
-    //       name: '检测数据管理',
-    //       component: './',
-    //     },
-    //     {
-    //       path: '/',
-    //       name: '技术状况评定',
-    //       component: './',
-    //     },
-    //   ]
-    // }, 
+    {
+      path: '/manage',
+      name: '路面技术状况评定',
+      routes: [
+        {
+          path: '/manage/project',
+          name: '项目管理',
+          component: './manage/project',
+        },
+        {
+          path: '/manage/checkdata',
+          name: '检测数据管理',
+          component: './manage/checkdata',
+        },
+        {
+          path: '/manage/pqi',
+          name: '技术状况评定',
+          component: './manage/pqi',
+        }
+      ]
+    },
     {
       path: '/base',
       name: '工程档案',

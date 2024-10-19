@@ -6,6 +6,8 @@ const GLOBAL = {
   "roadsection": `${API}/api/v2/tables/m7vi991pypdvxyh/records`,
   "roadsectionroadlink": `${API}/api/v2/tables/m7vi991pypdvxyh/links/cihylgqnj3ulwkl/records`,
   "roadsectioncompanylink": `${API}/api/v2/tables/m7vi991pypdvxyh/links/cq2dvae00r86diq/records`,
+  "project": `${API}/api/v2/tables/mykd612pao0j5md/records`,
+  "projectroadsectionlink": `${API}/api/v2/tables/mykd612pao0j5md/links/cujdolixvnatx2c/records`,
 }
 
 const GLOBAL1 = {
