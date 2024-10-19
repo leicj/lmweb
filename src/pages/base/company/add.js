@@ -25,7 +25,7 @@ const MyAdd = ({ dispatch, visible }) => {
   };
   return (
     <Modal title="新增公司" open={visible} onOk={() => onOk(form)} onCancel={() => onCancel(form)} style={{ minWidth: 600 }}>
-      <Form form={form} name="新增模块工厂" {...layout} ref={formRef}>
+      <Form form={form} name="新增公司" {...layout} ref={formRef}>
         <Form.Item name="运营公司名称" label="运营公司名称" rules={[{ required: true, message: "请输入运营公司名称" }]}>
           <Input />
         </Form.Item>

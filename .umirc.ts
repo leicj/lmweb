@@ -70,6 +70,11 @@ export default defineConfig({
           name: '运营公司',
           component: './base/company',
         },
+        {
+          path: '/base/road',
+          name: '路线档案',
+          component: './base/road',
+        },
         // {
         //   path: '/base/road',
         //   name: '路线档案',

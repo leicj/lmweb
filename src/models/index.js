@@ -2,6 +2,7 @@
 const API = "http://localhost:8080";
 const GLOBAL = {
   "company": `${API}/api/v2/tables/m8qw4atiqvnfi12/records`,
+  "road": `${API}/api/v2/tables/m0pod6cru7p2bb0/records`,
 }
 
 const GLOBAL1 = {

@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from '@umijs/max';
-import { Row, Col, Button, Segmented, Select, Tabs, Tag, Popconfirm, Input } from 'antd';
-import { mapFORMATKV } from '@/constants/index';
-import { tsFormat } from '@/components/help';
+import { Row, Col, Button, Popconfirm, Input } from 'antd';
 import { MyTable } from '@/components/table';
-import { AppstoreOutlined, BarsOutlined, QuestionCircleOutlined } from '@ant-design/icons';
 import MyAdd from './add';
 
 @connect(({ company }) => ({ company }))
@@ -17,11 +14,10 @@ class Company extends Component {
     const { data, pagination, addVisible, editData } = company;
     const titles = ["序号", "运营公司名称", "运营公司简称", "资产属性", "联系人", "联系人手机号", "创建人", "操作"];
     const dataIndexs = ["序号", "运营公司名称", "运营公司简称", "资产属性", "联系人", "联系人手机号", "创建人", "opr"];
-    console.log(data, "??")
     const Opr = ({ dispatch, d }) => {
       return (
         <>
-          <Button disabled onClick={() => dispatch({ type: "module/reditData", editData: { data: d, visible: true } })}>编辑</Button>
+          <Button disabled onClick={() => dispatch({ type: "company/reditData", editData: { data: d, visible: true } })}>编辑</Button>
           <Popconfirm
             title={`删除公司(${d.运营公司名称})`}
             description="删除运营公司不可恢复！确定删除？"
