@@ -1,4 +1,5 @@
 export function stakeFormat(stake) {
+  if (stake === null) return "- -";
   if (stake < 10) return "K000+00" + stake;
   if (stake < 100) return "K000+0" + stake;
   if (stake < 1000) return "K000+" + stake;

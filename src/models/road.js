@@ -72,7 +72,7 @@ export default {
     }
 }
 
-async function getRoads(params) {
+export async function getRoads(params) {
     const options = {
         method: 'GET',
         url: `${GLOBAL.road}`,

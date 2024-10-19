@@ -73,7 +73,7 @@ export default {
     }
 }
 
-async function getCompanys(params) {
+export async function getCompanys(params) {
     const options = {
         method: 'GET',
         url: `${GLOBAL.company}`,

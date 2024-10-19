@@ -3,6 +3,9 @@ const API = "http://localhost:8080";
 const GLOBAL = {
   "company": `${API}/api/v2/tables/m8qw4atiqvnfi12/records`,
   "road": `${API}/api/v2/tables/m0pod6cru7p2bb0/records`,
+  "roadsection": `${API}/api/v2/tables/m7vi991pypdvxyh/records`,
+  "roadsectionroadlink": `${API}/api/v2/tables/m7vi991pypdvxyh/links/cihylgqnj3ulwkl/records`,
+  "roadsectioncompanylink": `${API}/api/v2/tables/m7vi991pypdvxyh/links/cq2dvae00r86diq/records`,
 }
 
 const GLOBAL1 = {

@@ -75,15 +75,11 @@ export default defineConfig({
           name: '路线档案',
           component: './base/road',
         },
-        // {
-        //   path: '/base/road',
-        //   name: '路线档案',
-        //   component: './base/road',
-        // },{
-        //   path: '/base/roadsection',
-        //   name: '路段档案',
-        //   component: './base/roadsection',
-        // }
+        {
+          path: '/base/roadsection',
+          name: '路段档案',
+          component: './base/roadsection',
+        }
       ]
     }
   ],
